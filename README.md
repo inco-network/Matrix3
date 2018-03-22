@@ -1,2 +1,951 @@
-# Matrix3
-Bootstrap html5
+﻿# Matrix3
+<!DOCTYPE html>
+<html dir="ltr">
+<head>
+    
+	<script>
+    var themeHasJQuery = !!window.jQuery;
+</script>
+<script type="text/javascript" src="./assets/js/jquery.js?1.0.1610"></script>
+<script>
+    window._$ = jQuery.noConflict(themeHasJQuery);
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./assets/css/bootstrap.css?1.0.1610" media="screen" />
+<script type="text/javascript" src="./assets/js/bootstrap.min.js?1.0.1610"></script>
+<!--[if lte IE 9]>
+<link rel="stylesheet" href="./assets/css/layout.ie.css?1.0.1610">
+<script src="./assets/js/layout.ie.js?1.0.1610"></script>
+<![endif]-->
+<link class="" href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic&subset=latin' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="./assets/js/layout.core.js"></script>
+<script src="./assets/js/CloudZoom.js?1.0.1610"></script>
+	
+    <title>Home Page</title>
+	<link rel="stylesheet" href="./assets/css/style.css?1.0.1610">
+	<script src="./assets/js/script.js?1.0.1610"></script>
+    <meta charset="utf-8">
+    
+    <script data-source="googbase_min.js" data-version="3" data-exports-type="googbase" src="googbase_min.js"></script><script data-source="gwd_webcomponents_min.js" data-version="5" data-exports-type="gwd_webcomponents" src="gwd_webcomponents_min.js"></script>
+  <script
+  data-source="gwdiframe_min.js" data-version="4" data-exports-type="gwd-iframe" src="gwdiframe_min.js"></script>
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/154895249/Ex_ad_3', [567, 96], 'div-gpt-ad-1489851760450-0').addService(googletag.pubads());
+    googletag.defineSlot('/154895249/Ex_ad_4', [300, 250], 'div-gpt-ad-1489851760450-1').addService(googletag.pubads());
+    googletag.defineSlot('/154895249/Ex_ad_5', [468, 60], 'div-gpt-ad-1489851760450-2').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+    
+ <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    
+ <style>a {
+  transition: color 250ms linear;
+}
+</style>
+</head>
+<body class=" bootstrap bd-body-1 
+ bd-homepage bd-pagebackground bd-margins">
+    <header class=" bd-headerarea-1 bd-margins">
+        <section class=" bd-section-4 bd-page-width bd-tagstyles " id="section3" data-section-title="Page High Slider Header">
+    <div class="bd-container-inner bd-margins clearfix">
+        <div data-affix
+     data-offset=""
+     data-fix-at-screen="top"
+     data-clip-at-control="bottom"
+     
+ data-enable-lg
+     
+ data-enable-md
+     
+ data-enable-sm
+     
+     class=" bd-affix-2 bd-no-margins bd-margins "><div class=" bd-layoutbox-3  bd-no-margins clearfix">
+    <div class="bd-container-inner">
+        <div class=" bd-layoutbox-10 bd-no-margins bd-no-margins clearfix">
+    <div class="bd-container-inner">
+        <a class=" bd-logo-2" href="">
+    <img class=" bd-imagestyles-8" src="./assets/images/a88256cac6b9aef480958168579e1329_LOGOINCO2.png">
+</a>
+    </div>
+</div>
+	
+		<div class=" bd-layoutbox-13 bd-no-margins bd-no-margins clearfix">
+    <div class="bd-container-inner">
+        
+    
+    <nav class=" bd-hmenu-1" data-responsive-menu="true" data-responsive-levels="">
+        
+            <div class=" bd-responsivemenu-11 collapse-button">
+    <div class="bd-container-inner">
+        <div class="bd-menuitem-4 ">
+            <a  data-toggle="collapse"
+                data-target=".bd-hmenu-1 .collapse-button + .navbar-collapse"
+                href="#" onclick="return false;">
+                    <span>Menu</span>
+            </a>
+        </div>
+    </div>
+</div>
+            <div class="navbar-collapse collapse">
+            
+            <div class=" bd-horizontalmenu-1 clearfix">
+                <div class="bd-container-inner">
+                    
+                    <ul class=" bd-menu-1 nav nav-pills navbar-left">
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+                        
+                            
+                            <li class=" bd-menuitem-2
+                                        
+ bd-submenu-icon-only
+                                        bd-toplevel-item
+                                        
+                                        "
+                                    >
+
+                                
+                            
+                            <a 
+ class="active" title="Home Page" href="./home.html" >Home</a>
+
+                                
+                                    
+                            
+                            
+
+                                
+                            <div class="bd-menu-2-popup ">
+                            
+                                <ul class=" bd-menu-2 ">
+
+                                
+                                    
+
+                                    
+                            
+                            
+                                <li class=" bd-menuitem-6 bd-sub-item bd-sub-item">
+
+                                    
+                            
+                            <a  title="Διαφήμιση" href="./home/diafimisi.html" >Διαφήμιση</a>
+
+                                    
+                                        
+                            
+                            
+
+                                    
+                            
+                                </li>
+                                    
+
+                                    
+                            
+                            
+                                <li class=" bd-menuitem-6 bd-sub-item bd-sub-item">
+
+                                    
+                            
+                            <a  title="Εμφάνιση" href="./home/emfanisi.html" >Εμφάνιση</a>
+
+                                    
+                                        
+                            
+                            
+
+                                    
+                            
+                                </li>
+                                    
+
+                                    
+                            
+                            
+                                <li class=" bd-menuitem-6 bd-sub-item bd-sub-item">
+
+                                    
+                            
+                            <a  title="Network" href="./home/Network.html" >Network</a>
+
+                                    
+                                        
+                            
+                            
+
+                                    
+                            
+                                </li>
+
+                                
+                            
+                                </ul>
+                            </div>
+                            </li>
+                            
+                            <li class=" bd-menuitem-2
+                                        
+                                        bd-toplevel-item
+                                        
+                                        "
+                                    >
+
+                                
+                            
+                            <a  title="About" href="./about.html" >About</a>
+
+                                
+                                    
+                            
+                            
+                            </li>
+                            
+                            <li class=" bd-menuitem-2
+                                        
+                                        bd-toplevel-item
+                                        
+                                        "
+                                    >
+
+                                
+                            
+                            <a  title="Contacts" href="./contacts.html" >Contacts</a>
+
+                                
+                                    
+                            
+                            
+                            </li>
+                            
+                            <li class=" bd-menuitem-2
+                                        
+ bd-submenu-icon-only
+                                        bd-toplevel-item
+                                        
+                                        "
+                                    >
+
+                                
+                            
+                            <a  title="Κατασκευή" href="./Kataskevi.html" >Κατασκευή</a>
+
+                                
+                                    
+                            
+                            
+
+                                
+                            <div class="bd-menu-2-popup ">
+                            
+                                <ul class=" bd-menu-2 ">
+
+                                
+                                    
+
+                                    
+                            
+                            
+                                <li class=" bd-menuitem-6 bd-sub-item bd-sub-item">
+
+                                    
+                            
+                            <a  title="shediasmos" href="./Kataskevi/Design.html" >Σχεδιασμός</a>
+
+                                    
+                                        
+                            
+                            
+
+                                    
+                            
+                                </li>
+
+                                
+                            
+                                </ul>
+                            </div>
+                            </li>
+                            
+                            <li class=" bd-menuitem-2
+                                        
+                                        bd-toplevel-item
+                                        
+                                        "
+                                    >
+
+                                
+                            
+                            <a  title="Devices" href="./page.html" >Συσκευές</a>
+
+                                
+                                    
+                            
+                            
+                            </li>
+                    </ul>
+                    
+                </div>
+            </div>
+            
+        
+            </div>
+    </nav>
+    </div>
+</div>
+    </div>
+</div>
+</div>
+	
+		<div id="carousel-2" class="bd-slider-2 bd-background-width  bd-slider bd-no-margins  carousel slide bd-carousel-fade" >
+    
+
+    
+
+    
+
+    <div class="bd-slides carousel-inner">
+        <div class=" bd-slide-2 bd-textureoverlay bd-textureoverlay-2 bd-slide item"
+    
+    
+    >
+    <div class="bd-container-inner">
+        <div class="bd-container-inner-wrapper">
+            <div class=" bd-layoutbox-17 bd-no-margins clearfix">
+    <div class="bd-container-inner">
+        <div class=" bd-layoutbox-20 animated bd-animation-2 animated bd-animation-5 bd-no-margins clearfix" data-animation-name="fadeInDown,fadeOutUp" data-animation-event="slidein,slideout" data-animation-duration="900ms,700ms" data-animation-delay="0ms,0ms" data-animation-infinited="false,false">
+    <div class="bd-container-inner">
+        <h2 class=" bd-textblock-2 bd-content-element">
+    νεοσ τροποσ
+</h2>
+	
+		<h3 class=" bd-textblock-8 bd-content-element">
+    Άπειρες δυνατότητες
+</h3>
+	
+		<p class=" bd-textblock-11 bd-content-element">
+    Μη σας μπερδεύει η εικόνα βρισκόμαστε στην Ελλάδα και έχουμε να σας προτείνουμε ότι ποιο νέο και αποτελεσματικό κυκλοφορεί αυτή τη στιγμή στο διαδίκτυο. Έχουμε όλα όσα χρειάζεστε για να αρχίσετε ή να ανανεώσετε το σχεδιασμό της ιστοσελίδα σας
+</p>
+    </div>
+</div>
+	
+		<a 
+ href="http://127.0.0.1:12080/themler_1915613272/html/themes/Enterprise_170406/__editor__/runtime/__preview__/Kataskevi.html" class="bd-linkbutton-2 animated bd-animation-7 animated bd-animation-9  bd-button-12  bd-own-margins bd-content-element"  data-animation-name="fadeInUp,fadeOutDown" data-animation-event="slidein,slideout" data-animation-duration="900ms,700ms" data-animation-delay="0ms,0ms" data-animation-infinited="false,false"   >
+    Παραδειγματα
+</a>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+	
+		<div class=" bd-slide-5 bd-textureoverlay bd-textureoverlay-5 bd-slide item"
+    
+    
+    >
+    <div class="bd-container-inner">
+        <div class="bd-container-inner-wrapper">
+            <div class=" bd-layoutbox-22 bd-no-margins clearfix">
+    <div class="bd-container-inner">
+        <div class=" bd-layoutbox-24 animated bd-animation-11 animated bd-animation-13 bd-no-margins clearfix" data-animation-name="fadeInDown,fadeOutUp" data-animation-event="slidein,slideout" data-animation-duration="900ms,700ms" data-animation-delay="0ms,0ms" data-animation-infinited="false,false">
+    <div class="bd-container-inner">
+        <h2 class=" bd-textblock-14 bd-content-element">
+    νεοσ σχεδιασμος
+</h2>
+	
+		<h3 class=" bd-textblock-16 bd-content-element">
+    Καλύτερα αποτελέσματα
+</h3>
+	
+		<p class=" bd-textblock-18 bd-content-element">
+    Αν έχετε μια καλή ιδέα εμείς μπορούμε να την υλοποιήσουμε δουλεύοντας με νέα πρότυπα εφαρμογών τα πλέον κατάλληλα για το τομέα της επιχείρηση σας .
+</p>
+    </div>
+</div>
+	
+		<a 
+ href="http://127.0.0.1:12080/themler_1915613272/html/themes/Enterprise_170406/__editor__/runtime/__preview__/home/subpage2.html" class="bd-linkbutton-6 animated bd-animation-15 animated bd-animation-17  bd-button-14  bd-own-margins bd-content-element"  data-animation-name="fadeInUp,fadeOutDown" data-animation-event="slidein,slideout" data-animation-duration="900ms,700ms" data-animation-delay="0ms,0ms" data-animation-infinited="false,false"   >
+    ΜΆΘΕΤΕ περισσοτερα
+</a>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+	
+		<div class=" bd-slide-3 bd-textureoverlay bd-textureoverlay-1 bd-slide item"
+    
+    
+    >
+    <div class="bd-container-inner">
+        <div class="bd-container-inner-wrapper">
+            <div class=" bd-layoutbox-6 bd-no-margins clearfix">
+    <div class="bd-container-inner">
+        <div class=" bd-layoutbox-11 animated bd-animation-4 animated bd-animation-6 bd-no-margins clearfix" data-animation-name="fadeInDown,fadeOutUp" data-animation-event="slidein,slideout" data-animation-duration="900ms,700ms" data-animation-delay="0ms,0ms" data-animation-infinited="false,false">
+    <div class="bd-container-inner">
+        <h2 class=" bd-textblock-10 bd-content-element">
+    Εφαρμογεσ web
+</h2>
+	
+		<h3 class=" bd-textblock-6 bd-content-element">
+    Διαφήμιση&nbsp;
+</h3>
+	
+		<p class=" bd-textblock-1 bd-content-element">
+    Μπορείτε να μας επιλέξετε για να κατασκευάσουμε την ιστοσελίδα σας και να τη διαφημίσουμε σε εσωτερικό δίκτυο ή στο adwords της google.Είμαστε google partners από το 2011
+</p>
+    </div>
+</div>
+	
+		<a 
+ href="http://127.0.0.1:12080/themler_1915613272/html/themes/Enterprise_170406/__editor__/runtime/__preview__/home/diafimisi.html" class="bd-linkbutton-4 animated bd-animation-1 animated bd-animation-3  bd-button-16  bd-own-margins bd-content-element"  data-animation-name="fadeInUp,fadeOutDown" data-animation-event="slidein,slideout" data-animation-duration="900ms,700ms" data-animation-delay="0ms,0ms" data-animation-infinited="false,false"   >
+    Περρισοτερα
+</a>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+    </div>
+
+    
+
+    
+
+    
+        <div class="bd-left-button">
+    <a class=" bd-carousel-1" href="#">
+        <span class="bd-icon"></span>
+    </a>
+</div>
+
+<div class="bd-right-button">
+    <a class=" bd-carousel-1" href="#">
+        <span class="bd-icon"></span>
+    </a>
+</div>
+
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        if ('undefined' !== typeof initSlider) {
+            initSlider(
+                '.bd-slider-2',
+                {
+                    leftButtonSelector: 'bd-left-button',
+                    rightButtonSelector: 'bd-right-button',
+                    navigatorSelector: '.bd-carousel-1',
+                    indicatorsSelector: '.bd-indicators-2',
+                    carouselInterval: 3000,
+                    carouselPause: "hover",
+                    carouselWrap: true,
+                    carouselRideOnStart: true
+                }
+            );
+        }
+        /* ]]> */
+    </script>
+</div>
+    </div>
+</section>
+</header>
+	
+		<div class=" bd-stretchtobottom-1 bd-stretch-to-bottom" data-control-selector=".bd-contentlayout-1">
+<div class="bd-contentlayout-1 bd-page-width   bd-sheetstyles  bd-no-margins bd-margins" >
+    <div class="bd-container-inner">
+
+        <div class="bd-flex-vertical bd-stretch-inner bd-no-margins">
+            
+            <div class="bd-flex-horizontal bd-flex-wide bd-no-margins">
+                
+                <div class="bd-flex-vertical bd-flex-wide bd-no-margins">
+                    
+
+                    <div class=" bd-layoutitemsbox-1 bd-flex-wide bd-margins">
+    <div class=" bd-content-13">
+    
+    <div class=" bd-htmlcontent-1 bd-margins" 
+ data-page-id="page.0"><!-- /154895249/Ex_ad_4 -->
+<div id='div-gpt-ad-1489851760450-1' style='height:250px; width:300px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489851760450-1'); });
+</script>
+</div>
+    <section class=" bd-section-12 bd-tagstyles" id="section6" data-section-title="iPad Pro Main">
+    <div class="bd-container-inner bd-margins clearfix">
+        <div class=" bd-layoutbox-15 bd-no-margins clearfix">
+    <div class="bd-container-inner">
+        <h1 class=" bd-textblock-29 bd-no-margins bd-content-element">
+    Λεπτομερεια
+</h1>
+	
+		<p class=" bd-textblock-40 bd-content-element">
+    Αυτό που χρειάζεται μια επιχείρηση σήμερα είναι ο σχεδιασμός της εφαρμογής 
+(website) να αντιπροσωπεύει τη δουλειά που κάνεται με όσο το δυνατόν ποιο άμεσο 
+τρόπο. Ο σκοπός είναι να προσέγγισουμε το κατάλληλο κοινό που έχουμε ως στόχο!<!--EndFragment-->
+</p>
+    </div>
+</div>
+	
+		<img class="bd-imagelink-18 bd-background-width bd-imagescaling bd-imagescaling-5  bd-own-margins bd-imagestyles   "  src="./assets/images/d53e7da0283e063507fff1c953424043_1.PNG">
+    </div>
+</section>
+	
+		<section class=" bd-section-1 bd-background-width bd-tagstyles " id="section4" data-section-title="Text Six Columns">
+    <div class="bd-container-inner bd-margins clearfix">
+        <div class=" bd-layoutcontainer-6 bd-columns bd-no-margins">
+    <div class="bd-container-inner">
+        <div class="container-fluid">
+            <div class="row 
+ bd-row-flex 
+ bd-row-align-top">
+                <div class=" bd-columnwrapper-10 
+ col-md-4
+ col-sm-6">
+    <div class="bd-layoutcolumn-10 bd-column" ><div class="bd-vertical-align-wrapper"><h5 class=" bd-textblock-20 bd-content-element">
+    Web Design
+</h5>
+	
+		<h4 class=" bd-textblock-22 bd-content-element">
+    ΕΜΦΑΝΙΣΗ
+</h4>
+	
+		<h6 class=" bd-textblock-26 bd-content-element">
+    Ο μοντέρνος σχεδιασμός κεντρικών επαγγελματικών ιστοσελίδων με τη σωστή εμφάνιση<br>
+</h6>
+	
+		<p class=" bd-textblock-28 bd-content-element">
+    Η εμπειρία στη κατασκευή και ανάπτυξη εφαρμογών διαδικτύου ξεκάνει το 2011 . Από τότε πολλά πράγματα έχουν αλλάξει. Εμείς ανανεώνουμε και προσθέτουμε . . .<br>
+</p>
+	
+		<a 
+ href="http://127.0.0.1:12080/themler_1915613272/html/themes/Enterprise_170406/__editor__/runtime/__preview__/home/subpage2.html" class="bd-linkbutton-7  bd-button-18  bd-own-margins bd-content-element"    >
+    more
+</a></div></div>
+</div>
+	
+		<div class=" bd-columnwrapper-14 
+ col-md-4
+ col-sm-6">
+    <div class="bd-layoutcolumn-14 bd-column" ><div class="bd-vertical-align-wrapper"><h5 class=" bd-textblock-30 bd-content-element">
+    Responsive
+</h5>
+	
+		<h4 class=" bd-textblock-32 bd-content-element">
+    ΣΥΣΚΕΥΗ ΧΡΗΣΤΗ
+</h4>
+	
+		<h6 class=" bd-textblock-35 bd-content-element">
+    Ο συγχρονισμός των ιστοσελίδων σας γίνεται με τρόπο απλό και συμβατό σε όλες τις συσκευές.
+</h6>
+	
+		<p class=" bd-textblock-37 bd-content-element">
+    Οι συσκευές διασύνδεσης χρήστη στο web είναι desktop, laptop, tablet, smart phone και tv αυτό είναι ένα συν που μας επιτρέπει να προσεγγίζουμε....
+</p>
+	
+		<a 
+ href="http://127.0.0.1:12080/themler_1915613272/html/themes/Enterprise_170406/__editor__/runtime/__preview__/subpage4.html" class="bd-linkbutton-8  bd-button-22  bd-own-margins bd-content-element"    >
+    More
+</a></div></div>
+</div>
+	
+		<div class=" bd-columnwrapper-16 
+ col-md-4
+ col-sm-6">
+    <div class="bd-layoutcolumn-16 bd-column" ><div class="bd-vertical-align-wrapper"><h5 class=" bd-textblock-39 bd-content-element">
+    Controls
+</h5>
+	
+		<h4 class=" bd-textblock-41 bd-content-element">
+    ΠΟΙΟΤΗΤΑ
+</h4>
+	
+		<h6 class=" bd-textblock-43 bd-content-element">
+    Η ποιότητα που πρέπει να έχει μια ιστοσελίδα ειναι θέμα συνεργασίας και ανανέωσης.
+</h6>
+	
+		<p class=" bd-textblock-45 bd-content-element">
+    Για να πετύχουμε τη καλύτερη ποιότητα και τη σωστή εμφάνιση εργαζόμαστε μαζί με εσάς και τους συνεργάτες μας .Σε αυτό το project...
+</p>
+	
+		<a 
+ href="#section28" class="bd-linkbutton-9  bd-button-25  bd-own-margins bd-content-element"    >
+    More
+</a></div></div>
+</div>
+	
+		<div class=" bd-columnwrapper-18 
+ col-md-4
+ col-sm-6">
+    <div class="bd-layoutcolumn-18 bd-column" ><div class="bd-vertical-align-wrapper"><h5 class=" bd-textblock-47 bd-content-element">
+    Buildere
+</h5>
+	
+		<h4 class=" bd-textblock-49 bd-content-element">
+    ΚΑΤΑΣΚΕΥΗ
+</h4>
+	
+		<h6 class=" bd-textblock-51 bd-content-element">
+    Ειναι μια υπόθεση που εχει πολλά μυστικά και τεχνικές λεπτομέρειες η ιδέα ! είναι η αρχή.
+</h6>
+	
+		<p class=" bd-textblock-53 bd-content-element">
+    Πλήρως ειδικές (custom) κατασκευές απο την αρχή ή CMS είναι η ειδηκότητα μας μιας και επιβάλεται σε περιπτώσεις όπως η δικιά σας.
+</p>
+	
+		<a 
+ href="#section5" class="bd-linkbutton-11  bd-button-27  bd-own-margins bd-content-element"    >
+    More
+</a></div></div>
+</div>
+	
+		<div class=" bd-columnwrapper-20 
+ col-md-4
+ col-sm-6">
+    <div class="bd-layoutcolumn-20 bd-column" ><div class="bd-vertical-align-wrapper"><h5 class=" bd-textblock-55 bd-content-element">
+    Typography
+</h5>
+	
+		<h4 class=" bd-textblock-57 bd-content-element">
+    ΛΕΠΤΟΜΕΡΕΙΑ&nbsp;
+</h4>
+	
+		<h6 class=" bd-textblock-59 bd-content-element">
+    Έμφαση στη λεπτομέρεια της εμφάνισης στο κομμάτι τυπογραφία επιλογή που ταιριάζει στο περιεχόμενο.
+</h6>
+	
+		<p class=" bd-textblock-61 bd-content-element">
+    Ακολουθούμε τα στάνταρ του σχεδιασμού που με κείμενα μεγέθη γραφικών και κατάλληλων γραμματοσειρών κάνουν ....
+</p>
+	
+		<a 
+ href="#section6" class="bd-linkbutton-12  bd-button-29  bd-own-margins bd-content-element"    >
+    more
+</a></div></div>
+</div>
+	
+		<div class=" bd-columnwrapper-22 
+ col-md-4
+ col-sm-6">
+    <div class="bd-layoutcolumn-22 bd-column" ><div class="bd-vertical-align-wrapper"><h5 class=" bd-textblock-63 bd-content-element">
+    Interface
+</h5>
+	
+		<h4 class=" bd-textblock-65 bd-content-element">
+    ΕΥΚΟΛΙΑ
+</h4>
+	
+		<h6 class=" bd-textblock-67 bd-content-element">
+    Δεν χρειάζεται σύνθετη και πολύπλοκη διαδικασία στη κατασκευή της εφαρμογής.
+</h6>
+	
+		<p class=" bd-textblock-69 bd-content-element">
+    Από την αρχή έχουμε ως προτεραιότητα την κατανόηση του τρόπου λειτουργίας της ιστοσελίδας και πως αυτό μπορεί να γινει ... .
+</p>
+	
+		<a 
+ href="#section9" class="bd-linkbutton-13  bd-button-31  bd-own-margins bd-content-element"    >
+    More
+</a></div></div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</section><!-- /154895249/Ex_ad_5 -->
+<div id='div-gpt-ad-1489851760450-2' style='height:60px; width:468px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489851760450-2'); });
+</script>
+</div>
+	
+		<section class=" bd-section-28 bd-page-width bd-tagstyles " id="section28" data-section-title="Section">
+    <div class="bd-container-inner bd-margins clearfix">
+        <div id="carousel-1" class="bd-slider-1 animated bd-animation-16 bd-slider bd-no-margins  carousel slide bd-carousel-left"  data-animation-name="fadeOut" data-animation-event="scroll" data-animation-duration="1000ms" data-animation-delay="0ms" data-animation-infinited="false">
+    
+
+    
+    <div class="bd-container-inner">
+
+    
+
+    <div class="bd-slides carousel-inner">
+        <div class=" bd-slide-6 bd-slide item"
+    
+    
+    >
+    <div class="bd-container-inner">
+        <div class="bd-container-inner-wrapper">
+            <h1 class=" bd-textblock-48 bd-content-element">
+    Έχετε την ιδέα έχουμε το τρόπο &nbsp;
+</h1>
+	
+		<p class=" bd-textblock-64 bd-content-element">
+    Μπορούμε να αναλάβουμε τη συνολική προβολή της<br>&nbsp;επιχείρισης σας στο διαδίκτυο &nbsp;&nbsp;
+</p>
+	
+		<a 
+ href="http://127.0.0.1:12080/themler_1915613272/html/themes/Enterprise_170406/__editor__/runtime/__preview__/page.html" class="bd-linkbutton-27  bd-button-38  bd-own-margins bd-content-element"    >
+    Μάθετε περισσότερα
+</a>
+        </div>
+    </div>
+</div>
+	
+		<div class=" bd-slide-1 bd-slide item"
+    
+    
+    >
+    <div class="bd-container-inner">
+        <div class="bd-container-inner-wrapper">
+            <h1 class=" bd-textblock-17 bd-content-element">
+    Κατασκευές custom &amp; cms &nbsp;&nbsp;
+</h1>
+	
+		<p class=" bd-textblock-4 bd-content-element">
+    Μπορείτε να επιλέγεται τη κατασκευή της ιστοσελίδας σας από την αρχή ή έτοιμα templates&nbsp;
+</p>
+	
+		<a 
+ href="" class="bd-linkbutton-5  bd-button-36  bd-own-margins bd-content-element"    >
+    Μάθετε περισσότερα
+</a>
+        </div>
+    </div>
+</div>
+	
+		<div class=" bd-slide-7 bd-slide item"
+    
+    
+    >
+    <div class="bd-container-inner">
+        <div class="bd-container-inner-wrapper">
+            <h1 class=" bd-textblock-21 bd-content-element">
+    &nbsp;E-SHOP CMS &nbsp;
+</h1>
+	
+		<p class=" bd-textblock-19 bd-content-element">
+    Φτιαχτέ την ιστοσελίδα σας και προσθέστε e-shop<br><br>αργότερα χωρίς καμία σημαντική αλλαγή με τον ίδιο πίνακα ελέγχου<br>στην ίδια εφαρμογή<br><br><br><br>&nbsp;&nbsp;&nbsp;
+</p>
+	
+		<a 
+ href="" class="bd-linkbutton-18  bd-button-41  bd-own-margins bd-content-element"    >
+    Μάθετε περισσότερα
+</a>
+        </div>
+    </div>
+</div>
+    </div>
+
+    
+
+    
+    </div>
+
+    
+
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        if ('undefined' !== typeof initSlider) {
+            initSlider(
+                '.bd-slider-1',
+                {
+                    leftButtonSelector: 'bd-left-button',
+                    rightButtonSelector: 'bd-right-button',
+                    navigatorSelector: '.bd-carousel',
+                    indicatorsSelector: '.bd-indicators',
+                    carouselInterval: 3000,
+                    carouselPause: "hover",
+                    carouselWrap: true,
+                    carouselRideOnStart: false
+                }
+            );
+        }
+        /* ]]> */
+    </script>
+</div>
+    </div>
+</section>
+	
+		<section class=" bd-section-5 bd-tagstyles" id="section5" data-section-title="Two Columns With Image Right">
+    <div class="bd-container-inner bd-margins clearfix">
+        <div class=" bd-layoutcontainer-8 bd-columns bd-no-margins">
+    <div class="bd-container-inner">
+        <div class="container-fluid">
+            <div class="row 
+ bd-row-flex 
+ bd-row-align-middle">
+                <div class=" bd-columnwrapper-15 
+ col-md-6">
+    <div class="bd-layoutcolumn-15 bd-column" ><div class="bd-vertical-align-wrapper"><h4 class=" bd-textblock-27 bd-content-element">
+    Ιστοσελίδες προβολής
+</h4>
+	
+		<h1 class=" bd-textblock-34 bd-content-element">
+    Κατασκευές από την αρχή
+</h1>
+	
+		<div class=" bd-spacer-6 clearfix"></div>
+	
+		<p class=" bd-textblock-38 bd-content-element">
+    Η ιστοσελίδα που αναδεικνύει τις δραστηριότητες σας αυτό που ξεχωρίζει φτιάχνοντας την εταιρική ταυτότητα της επιχείρησης σας αν έχετε εταιρία ανήκετε σε όμιλο κλπ.
+</p></div></div>
+</div>
+	
+		<div class=" bd-columnwrapper-35 
+ col-md-6">
+    <div class="bd-layoutcolumn-35 bd-column" ><div class="bd-vertical-align-wrapper"><img class="bd-imagelink-14 bd-own-margins bd-imagestyles   "  src="./assets/images/d4a3219b9d2fa0422e625e774e3d02a6_incopagegraphic.jpg"></div></div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div><!-- /154895249/Ex_ad_5 -->
+<div id='div-gpt-ad-1489851760450-2' style='height:60px; width:468px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489851760450-2'); });
+</script>
+</div>
+</section>
+</div>
+</div>
+</div>
+
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+
+    </div>
+</div></div>
+	
+		<section class=" bd-section-25 bd-page-width bd-tagstyles " id="section9" data-section-title="One Сolumn">
+    <div class="bd-container-inner bd-margins clearfix">
+        <div class=" bd-layoutcontainer-10 bd-page-width  bd-columns bd-no-margins">
+    <div class="bd-container-inner">
+        <div class="container-fluid">
+            <div class="row 
+ bd-row-flex 
+ bd-row-align-middle">
+                <div class=" bd-columnwrapper-17 
+ col-xs-12">
+    <div class="bd-layoutcolumn-17 bd-column" ><div class="bd-vertical-align-wrapper"><h1 class=" bd-textblock-60 bd-content-element">
+    ΕΥΚΟΛΙΑ
+</h1>
+	
+		<p class=" bd-textblock-80 bd-content-element">
+    Αυτό που λέμε ευκολία το συναντάμε στο Internet ως (UI) User Interface. Σε αυτή τη περίπτωση λαβαίνουμε υπόψιν το λειτουργικό σύστημα της συσκευής των χριστών της εφαρμογής, προσαρμόζουμε το προγραμματισμό ανάλογα με ποιες εφαρμογές χρησιμοποιούν περισσότερο. Με αυτό το τρόπο πετυχαίνουμε μεγαλύτερη ασφάλεια γρηγορότερα αποτελέσματα . Απευθυνόμαστε τόσο σε ιδιώτες όσο και επαγγελματίες.
+</p><!-- /154895249/Ex_ad_3 -->
+<div id='div-gpt-ad-1489851760450-0' style='height:96px; width:567px;'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1489851760450-0'); });
+</script>
+</div>
+<img class="bd-imagelink-20 bd-own-margins bd-imagestyles   "  src="./assets/images/d0559dd23cf00bd859cd80382b50e5dd_productlisting.orig.jpg"></div></div>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+	
+		<footer class=" bd-footerarea-1 bd-margins">
+        <div class=" bd-parallaxbackground-1 bd-parallax-bg-effect" data-control-selector=".bd-section-2"><section class=" bd-section-2 bd-page-width bd-tagstyles  bd-textureoverlay bd-textureoverlay-3 " id="section4" data-section-title="Map Two Columns">
+    <div class="bd-container-inner bd-margins clearfix">
+        <div class="bd-containereffect-2 container-effect container "><div class=" bd-layoutcontainer-9  bd-columns bd-no-margins">
+    <div class="bd-container-inner">
+        <div class="container-fluid">
+            <div class="row 
+ bd-row-flex 
+ bd-row-align-middle">
+                <div class=" bd-columnwrapper-24 
+ col-sm-6">
+    <div class="bd-layoutcolumn-24 bd-column" ><div class="bd-vertical-align-wrapper"><h1 class=" bd-textblock-71 bd-content-element">
+    Inco Network
+</h1>
+	
+		<p class=" bd-textblock-73 bd-content-element">
+    Αν χρειάζεστε περισσότερες πληροφορίες θα μας βρείτε στη παρακάτω διεύθυνση ή καλώντας στο παρακάτω τηλέφωνο
+</p>
+	
+		<div class=" bd-spacer-2 clearfix"></div>
+	
+		<span class="bd-iconlink-2 bd-no-margins bd-own-margins bd-icon-37 bd-icon "></span>
+	
+		<p class=" bd-textblock-75 bd-content-element">
+    &nbsp; &nbsp; &nbsp; Περικλέους 56 Πετρούπολη Τκ. 13231
+</p>
+	
+		<div class=" bd-spacer-5 clearfix"></div>
+	
+		<span class="bd-iconlink-5 bd-no-margins bd-own-margins bd-icon-43 bd-icon "></span>
+	
+		<p class=" bd-textblock-77 bd-content-element">
+    Καθημερινά εκτός Σαββάτο Κυριακή<br>Από 8:00 - 20:00
+</p>
+	
+		<div class=" bd-spacer-7 clearfix"></div>
+	
+		<span class="bd-iconlink-7 bd-no-margins bd-own-margins bd-icon-45 bd-icon "></span>
+	
+		<p class=" bd-textblock-79 bd-content-element">
+    697-9149356&nbsp;
+</p></div></div>
+</div>
+	
+		<div class=" bd-columnwrapper-26 
+ col-sm-6">
+    <div class="bd-layoutcolumn-26 bd-column" ><div class="bd-vertical-align-wrapper"><div class="bd-googlemap-3 bd-own-margins bd-imagestyles-12 ">
+    <div class="embed-responsive" style="height: 100%; width: 100%;">
+        <iframe class="embed-responsive-item"
+                src="//maps.google.com/maps?output=embed&q=Αθήνα Ελλάδα ,Περικλέους 56 Πετρούπολη&z=16&t=m&hl=el"></iframe>
+    </div>
+</div></div></div>
+</div>
+            </div>
+        </div>
+    </div>
+</div></div>
+	
+		<div class=" bd-pagefooter-1">
+    <div class="bd-container-inner">
+        
+            Designed by <a href='http://www.inco-network.com' target="_blank">Kips Porfiris</a>.
+    </div>
+</div>
+    </div>
+</section></div>
+</footer>
+	
+		<div data-smooth-scroll data-animation-time="250" class=" bd-smoothscroll-3"><a href="#" class=" bd-backtotop-1 ">
+    <span class="bd-icon-67 bd-icon "></span>
+</a></div>
+</body>
+</html>
